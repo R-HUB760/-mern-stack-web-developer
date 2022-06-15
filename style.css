@@ -1,0 +1,162 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: rgb(172, 12, 12);
+    /* background: url(school.jpg) no-repeat fixed center center;
+    background-size: cover; */
+    color: #fff;
+}
+
+/* Header Start */
+
+/* Logo */
+
+.logo1{
+    border: 3px solid rgb(56, 216, 7);
+    padding: 3px 5px 0 5px;
+}
+.contain{
+    background:black;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px 8px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.menu{
+    position: relative;
+    flex-grow: 1;
+}
+.nav__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-left: -30px;
+}
+
+.contain .menu .nav__list li{
+    display:inline-block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid rgba(252, 252, 254, 0.745);
+    text-align: center;
+    position: relative; 
+    
+}
+.contain .menu .nav__list li a{
+    text-decoration: none;
+    color: rgb(245, 211, 211);
+    padding: 3px;
+   
+    /* transition: all 0.1s ease-in .5s; */
+}
+.nav__list li ul li:nth-child(odd){
+    background-color: green;
+}
+.nav__list li:nth-of-type(5){
+    margin-right:auto;
+    margin-left: auto;
+ }
+.nav__list li:nth-of-type(1){
+    background-color: rgb(254, 0, 0);
+}
+.contain .menu .nav__list li a:hover{
+    background-color: gray;
+}
+
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+    position: absolute;
+    min-width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0;
+}
+/* Header End */
+
+/* Footer Start */
+
+footer{
+    background: rgb(113, 79, 79);
+    text-align: center;
+    margin-top: 200px;
+}
+.logo{
+    padding: 8px 0;
+}
+.copy{
+    max-width: 100%;
+    background: black;
+    padding: 10px 0;
+}
+
+.conten > p{
+
+   padding: 5px 50px;
+   margin: auto;
+   margin-bottom: 15px;
+}
+.icon{
+    position: fixed;
+    top:300px;
+    writing-mode: vertical-lr;
+    font-size: 22px;
+    z-index: 1;
+    background-color: yellow;
+    color: rgb(7, 7, 255);
+    padding:5px 0;
+    width: fit-content;
+}
+/* Footer Start */
+
+/* Form */
+
+.form1{
+    background: #ffffff;
+    color: black;
+    box-shadow: 5px 5px 3px rgb(4, 50, 254), -5px -5px 5px rgb(4, 50, 254);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px;
+    text-align: center;
+}
+input{
+   width: 300px;
+   margin: auto;
+   padding: 5px 10px;
+   border-radius: 50px;
+}
+input:focus{
+    background: blue;
+} 
+
+input:hover{
+    background: green;
+    color: #fff;
+}
+#submit{
+    margin: 5px;
+}
+/* Form End */
