@@ -112,6 +112,7 @@ footer{
     background: rgb(113, 79, 79);
     text-align: center;
     margin-top: 200px;
+    
 }
 .logo{
     padding: 8px 0;
@@ -123,10 +124,13 @@ footer{
 }
 
 .conten > p{
-
-   padding: 5px 50px;
+   max-width: 70%;
+   max-height: 300px;
+   overflow:scroll;
+   padding: 15px 50px;
    margin: auto;
-   margin-bottom: 15px;
+   margin: 25px auto;
+   box-shadow:5px 5px 18px rgb(172, 164, 164), -5px -5px 18px rgb(172, 164, 164);
 }
 .icon{
     position: fixed;
